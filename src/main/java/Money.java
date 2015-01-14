@@ -19,6 +19,7 @@ public class Money
         return fCurrency;
     }
     
+    //method to add 2 Money objects
     public Money add(Money m) {
         return new Money(amount()+m.amount(), currency());
     }
