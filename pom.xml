@@ -3,4 +3,12 @@
   <groupId>MoneySample</groupId>
   <artifactId>MoneySample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<scope>test</scope>
+  		<version>4.1</version>
+  	</dependency>
+  </dependencies>
 </project>
