@@ -6,6 +6,7 @@ public class MoneyBag
 {
 	 private Vector<Money> fMonies= new Vector<Money>();
 
+	 	//constructor for MoneyBag class
 	 	MoneyBag()
 	 	{
 	 		this.fMonies=null;
