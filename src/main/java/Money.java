@@ -3,6 +3,8 @@ public class Money
 {
 	private int fAmount;
     private String fCurrency;
+    
+    //constructor for Money class
     public Money(int amount, String currency) {
         fAmount= amount;
         fCurrency= currency;
