@@ -11,16 +11,20 @@ public class MoneyBag
 	 	{
 	 		this.fMonies=null;
 	 	}
-	    MoneyBag(Money m1, Money m2) {
+	   
+	 	//constructor for 2 Money Objects
+	 	MoneyBag(Money m1, Money m2) {
 	        appendMoney(m1);
 	        appendMoney(m2);
 	    }
 
+	 	//constructor for array of Money Objects
 	    MoneyBag(Money bag[]) {
 	        for (int i= 0; i < bag.length; i++)
 	            appendMoney(bag[i]);
 	    }
 	    
+	    //constructor for 1 MoneyBag Object
 	    MoneyBag(MoneyBag bag) {
 	        this.fMonies=bag.fMonies;
 	    }
